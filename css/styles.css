@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@300;400;700&display=swap");
+/* Base */
+:root {
+  --primary-color: #ff4c68;
+}
+#title,
+#testimonials,
+#press,
+#cta {
+  background-color: var(--primary-color);
+}
+footer p,
+#features p,
+#title .nav-link {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container {
+  margin: 0 auto;
+}
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+button i {
+  margin-right: 5px;
+}
+button {
+  margin: 5% 3% 5% 0;
+}
+#title img {
+  width: 60%;
+  transform: translateX(90px) rotate(25deg);
+}
+
+/* Features */
+#features {
+  text-align: center;
+  padding: 5% 0;
+}
+#features h3 {
+  font-weight: 700;
+}
+#features p {
+  font-size: 1.2rem;
+  color: gray;
+}
+#features i {
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+/* Testimonial */
+#testimonials {
+  text-align: center;
+  color: white;
+}
+#testimonials .carousel-item img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+.carousel-item {
+  padding: 7% 20%;
+}
+#carousel {
+  margin-bottom: 2rem;
+  height: 400px;
+}
+/* press */
+#press {
+  text-align: center;
+  padding-bottom: 4%;
+}
+#press img {
+  width: 15%;
+}
+/* pricing */
+#pricing {
+  text-align: center;
+}
+#pricing .card {
+  height: 400px;
+  position: relative;
+}
+#pricing .card button {
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+  width: 80%;
+}
+#pricing h2 {
+  margin-top: 1rem;
+}
+#pricing p {
+  font-size: 1.2rem;
+}
+/* cta */
+#cta {
+  color: white;
+  text-align: center;
+}
+#cta h3 {
+  padding: 1rem;
+}
+footer {
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+footer ul li a {
+  color: black;
+}
+@media screen and (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  #title img {
+    width: 30%;
+    transform: rotate(0);
+  }
+  .last-card button {
+    bottom: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+  }
+}
